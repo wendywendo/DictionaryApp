@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+header p {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  padding: 20px;
+  margin-top: px;
+  font-size: 17px;
+  border: 2px solid blue;
+  border-radius: 20px;
+  width: 50%;
+}
+
+.word-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin-top: 20px;
+}
+
+.word {
+  width: 100%;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  padding: 20px;
+}
+
+.dict-word {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.phonetic {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  width: 40%;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 40px 0;
+}
+
+.part-of-speech {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+ol > li {
+  margin-left: -20px;
+  font-size: 18px;
+  margin: 7px 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
